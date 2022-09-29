@@ -1,0 +1,1 @@
+{"version":3,"file":"UnAssigned.component.js","sourceRoot":"","sources":["UnAssigned.component.ts"],"names":[],"mappings":";;;;;;AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C;IAAA;IACA,CAAC;IADY,mBAAmB;QAL/B,SAAS,CAAC;YACP,QAAQ,EAAE,kBAAkB;YAC5B,WAAW,EAAE,6BAA6B;YAC1C,SAAS,EAAE,CAAC,wCAAwC,CAAC;SACxD,CAAC;OACW,mBAAmB,CAC/B;IAAD,0BAAC;CAAA,AADD,IACC;SADY,mBAAmB"}

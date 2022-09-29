@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData[ "Title" ] - Ladder Now</title>
+    <base href="~/" />
+    <link rel="Shortcut Icon" href="@Url.Content( "~/imgs/ms-icon-144x144.png" )" type="image/x-icon" media="screen" />
+    @*<link rel="stylesheet" href="~/vendor.css" asp-append-version="true" />*@
+</head>
+<body>
+    @RenderBody()
+
+    @RenderSection( "scripts", required: false )
+</body>
+</html>

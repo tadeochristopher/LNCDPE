@@ -1,0 +1,153 @@
+li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Highlighting rules for nav menu items */
+li.link-active a,
+li.link-active a:hover,
+li.link-active a:focus {
+  /*background-color: #4189C7;*/
+  background: linear-gradient(to right, #539e45 0%, #33383e 2%, #33383e 84%, #33383e 100%);
+  opacity: 75;
+  color: white;
+  border-left: 1px #539e45 solid;
+  border-radius: 0 !important;
+  margin: 0 0 0 -5px !important;
+  font-family: Open sans-serif, sans-serif;
+}
+
+li {
+    width: 99% !important
+}
+
+li svg {
+    width: 15.75px;
+    height: 12.25px;
+}
+
+/* Keep the nav menu independent of scrolling and on top of other items */
+.main-nav {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar ul li {
+    top: 10px;
+}
+
+.nav-link {
+    padding: 0 .5rem 0 .5rem;
+}
+
+.navbar {
+    max-width: 300px;
+    z-index: 5;
+}
+
+@media (max-width: 800px)
+{
+    .navbar {
+        max-width: 767.5px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* On small screens, convert the nav menu to a vertical sidebar */
+    .main-nav {
+        height: 100%;
+        width: calc(25% - 20px);
+    }
+    .navbar {
+        border-radius: 0px;
+        border-width: 0px;
+        height: 100%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-collapse {
+        border-top: 1px solid #444;
+        padding: 0px;
+    }
+    .navbar ul {
+        float: none;
+    }
+    .navbar li {
+        float: none;
+        font-size: 15px;
+        margin: 6px;
+    }
+    .navbar li a {
+        padding: 10px 16px;
+        border-radius: 4px;
+    }
+    .navbar a {
+        /* If a menu item's text is too long, truncate it */
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.show {
+  display: inline-block !important;
+}
+
+.sublistKB li {
+  width: 99% !important;
+  background-color: transparent;
+}
+
+.sublistKB li svg, .sublistKB li a img {
+  width: 26.75px;
+  height: 25.67px;
+  margin: 0 6px 0 0;
+}
+
+  /*.sublistKB li svg:hover{
+    fill: #ffffff;
+  }*/
+
+  .sublistKB li.link-active a:active {
+    color: #ffffff !important;
+    outline: none !important;
+    text-decoration: none !important;
+    background-color: transparent;
+  }
+
+  .sublistKB li a:visited, .sublistKB li a {
+    color: #9d9d9d !important;
+    outline: none !important;
+    text-decoration: none !important;
+    background-color: transparent;
+  }
+
+.sublistKB {
+  display: none;
+}
+
+  .sublistKB li a:hover, .sublistKB li a:focus {
+    /*background-color: #4189C7;*/
+    background: linear-gradient(to right, #539e45 0%, #33383e 2%, #33383e 84%, #33383e 100%) !important;
+    opacity: 75 !important;
+    color: white !important;
+    border-left: 1px #539e45 solid !important;
+    border-radius: 0 !important;
+    margin: 0 0 0 -5px !important;
+    font-family: Open sans-serif, sans-serif !important;
+    outline: none;
+    text-decoration: none;
+  }
+
+.fa-Wind, .fa-Rain {
+  fill: #9d9d9d;
+  margin: 0 6px 0 0;
+}
+
+.fa-Wind:hover, .fa-Rain:hover {
+  fill: #ffffff;
+}

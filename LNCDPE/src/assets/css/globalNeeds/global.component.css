@@ -1,0 +1,78 @@
+﻿/*.body-content {
+    position: relative;
+    border: 1px solid green;
+    background-color: #ffd800;
+}*/
+.baseLineBodyHeader {
+    overflow-y: auto;
+    outline: none;
+    /*border: 1px solid #000;*/
+    width: 90vw;
+    left: 18.3%;
+    top: -14px;
+    position: relative;
+    margin-left: -27.5vw;
+    margin-right: -38.5vw;
+    min-height: 10vw;
+    max-width: 89vw;
+}
+
+.baseLineBodyHeader .baseLineBodyHeaderNav .baseLineHeaderName {
+    font-size: 1.5rem;
+    font-family: Open sans-serif, sans-serif;
+    color: #fff;
+    padding: 10px 10px 10px 20px;
+    background-color: #539e45;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.baseLineBodyHeader .baseLineBodyHeaderNav {
+    width: 100%;
+    height: 150px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 10px;
+    display: inline-block;
+    outline: none;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: -50;
+}
+
+@media (max-width: 800px)
+{
+    .baseLineBodyHeader {
+        width: 100vw;
+        left: 37.9%;
+        top: -84px;
+        height: 100vw;
+        min-height: 10vw;
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 1268px) {
+    .baseLineBodyHeader .baseLineBodyHeaderNav .baseLineHeaderName {
+        padding: 10px 10px 10px 190px;
+    }
+}
+
+@media (max-width: 1298px) {
+    .baseLineBodyHeader .baseLineBodyHeaderNav .baseLineHeaderName {
+        padding: 10px 10px 10px 190px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .baseLineBodyHeader .baseLineBodyHeaderNav .baseLineHeaderName {
+        padding: 10px 10px 10px 190px;
+    }
+}
+
+/*@media (min-width: 768px) {
+    .baseLineBodyHeader {
+        
+    }
+}*/

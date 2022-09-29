@@ -1,0 +1,12 @@
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row ln-navbar">
+    <div class="headerlogosealed"><img src="../../../assets/imgs/laddernow-logo-full-white.png" class="ladderLogoTop" /></div>
+    <div class="securityHeaderRt dropdown" _ngcontent-kbo-c181 ngbdropdown placement="bottom-right" (click)="ShowHide()">
+        <button _ngcontent-kbo-c181 aria-haspopup="true" class="dropdown-toggle btn btn-link nav-item nav-link mr-md-2 user-dropdown d-flex align-items-center" aria-expanded="false">
+            <img _ngcontent-kbo-c181 src="../../../assets/imgs/anonymous-user-avatar.svg" class="user-avatar" />
+            <h4 #loginpopup>{{username}}</h4>
+        </button>
+        <div _ngcontent-kbo-c181 ngbdropdownmenu class="{{attrib}}">
+            <button _ngcontent-kbo-c181 class="dropdown-item" (click)="SigningOut()">Sign Out</button>
+        </div>
+    </div>
+</header>

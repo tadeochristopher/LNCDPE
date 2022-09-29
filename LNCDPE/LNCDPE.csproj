@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="backu\**" />
+    <Compile Remove="src\app\globalNeeds\**" />
+    <Compile Remove="src\assets\css\bootstrap\**" />
+    <Compile Remove="wwwroot\css\**" />
+    <Compile Remove="wwwroot\js\**" />
+    <Compile Remove="wwwroot\lib\**" />
+    <Content Remove="backu\**" />
+    <Content Remove="src\app\globalNeeds\**" />
+    <Content Remove="src\assets\css\bootstrap\**" />
+    <Content Remove="wwwroot\css\**" />
+    <Content Remove="wwwroot\js\**" />
+    <Content Remove="wwwroot\lib\**" />
+    <EmbeddedResource Remove="backu\**" />
+    <EmbeddedResource Remove="src\app\globalNeeds\**" />
+    <EmbeddedResource Remove="src\assets\css\bootstrap\**" />
+    <EmbeddedResource Remove="wwwroot\css\**" />
+    <EmbeddedResource Remove="wwwroot\js\**" />
+    <EmbeddedResource Remove="wwwroot\lib\**" />
+    <None Remove="backu\**" />
+    <None Remove="src\app\globalNeeds\**" />
+    <None Remove="src\assets\css\bootstrap\**" />
+    <None Remove="wwwroot\css\**" />
+    <None Remove="wwwroot\js\**" />
+    <None Remove="wwwroot\lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="src\app\app-routing.module.ts" />
+    <None Remove="src\app\app.browser.module.ts" />
+    <None Remove="src\app\app.server.module.ts" />
+    <None Remove="src\app\app.shared.module.ts" />
+    <None Remove="src\app\components\KB\Fire\fire.component.ts" />
+    <None Remove="src\app\components\KB\HotTopics\hottopics.component.ts" />
+    <None Remove="src\app\components\KB\Rain\rain.component.ts" />
+    <None Remove="src\app\components\KB\Wind\wind.component.ts" />
+    <None Remove="src\app\components\Time\time.component.ts" />
+    <None Remove="src\app\services\navigation\Nav-Parameter.service.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jQuery" Version="3.5.1" />
+    <PackageReference Include="jQuery.UI" Version="1.12.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="src\assets\js\" />
+    <Folder Include="src\assets\lib\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\app.browser.module.ts" />
+    <TypeScriptCompile Include="src\app\components\KB\Fire\fire.component.ts" />
+    <TypeScriptCompile Include="src\app\components\KB\HotTopics\hottopics.component.ts" />
+    <TypeScriptCompile Include="src\app\components\KB\Rain\rain.component.ts" />
+    <TypeScriptCompile Include="src\app\components\KB\Wind\wind.component.ts" />
+    <TypeScriptCompile Include="src\app\components\Time\time.component.ts" />
+    <TypeScriptCompile Include="src\app\services\navigation\Nav-Parameter.service.ts" />
+  </ItemGroup>
+
+</Project>
